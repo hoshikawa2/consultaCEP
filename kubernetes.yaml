@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: oraclequoteproject-service
+  name: consultacep-service
   labels:
-    app: oraclequoteproject
+    app: consultacep
 spec:
   selector:
-    app: oraclequoteproject
+    app: consultacep
   type: NodePort
   ports:
     - port: 3003
@@ -15,20 +15,20 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: oraclequoteproject-deployment
+  name: consultacep-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: oraclequoteproject
+      app: consultacep
   template:
     metadata:
       labels:
-        app: oraclequoteproject
+        app: consultacep
     spec:
       containers:
-        - name: oraclequoteproject
-          image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/oraclequoteproject:latest
+        - name: consultacep
+          image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/consultacep:latest
           ports:
             - containerPort: 3003
       imagePullSecrets:

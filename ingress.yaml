@@ -1,14 +1,14 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: oraclequote-gateway
+  name: consultacep-gateway
 spec:
   selector:
     istio: ingressgateway # use Istio default gateway implementation
   servers:
     - port:
-        number: 3002
-        name: redis
+        number: 3003
+        name: consultacep
         protocol: TCP
       hosts:
         - "*"
@@ -16,18 +16,18 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: oraclequote-vts
+  name: consultacep-vts
 spec:
   hosts:
     - "*"
   gateways:
-    - oraclequote-gateway
+    - consultacep-gateway
   tcp:
     - match:
-        - port: 3002
+        - port: 3003
       route:
         - destination:
             port:
-              number: 3002
-            host: oraclequoteproject-service
+              number: 3003
+            host: consultacep-service
 
