@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="teste">
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="ajuste para o deployment e servicos corretos">
+      <change afterPath="$PROJECT_DIR$/CRISTIANO_HOSHIKAWA_CEP_01.00.0000.iar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +32,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jhTWlbSHdUmRp6SyyILZGP0AEC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -63,7 +65,8 @@
       <workItem from="1604255358917" duration="7000" />
       <workItem from="1604255439327" duration="69000" />
       <workItem from="1604320251138" duration="1164000" />
-      <workItem from="1604334680112" duration="77000" />
+      <workItem from="1604334680112" duration="153000" />
+      <workItem from="1604334884421" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -72,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604322010783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajuste para o deployment e servicos corretos">
+      <created>1604334806671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604334806671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,8 +101,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+    <MESSAGE value="ajuste para o deployment e servicos corretos" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste para o deployment e servicos corretos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604320384516">
@@ -163,13 +175,13 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1379" height="335" key="GridCell.Tab.3.right/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155377" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604322031518">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604334822474">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604322031518" />
-    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604322020933">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604334822474" />
+    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604334816353">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604322020933" />
+    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604334816353" />
   </component>
 </project>
