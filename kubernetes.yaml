@@ -11,20 +11,6 @@ spec:
   ports:
     - port: 3003
       nodePort: 32641
-
-#  clusterIP: None
-#  ports:
-#    - port: 8088
-#      name: rest
-#    - port: 32259
-#      name: inter-node
-#      targetPort: 32259
-
-#  ports:
-#  - port: 30146
-#    protocol: TCP
-#    targetPort: 8088
-
 ---
 apiVersion: apps/v1
 kind: Deployment
