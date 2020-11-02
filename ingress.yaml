@@ -1,0 +1,33 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: oraclequote-gateway
+spec:
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
+  servers:
+    - port:
+        number: 3002
+        name: redis
+        protocol: TCP
+      hosts:
+        - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: oraclequote-vts
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - oraclequote-gateway
+  tcp:
+    - match:
+        - port: 3002
+      route:
+        - destination:
+            port:
+              number: 3002
+            host: oraclequoteproject-service
+

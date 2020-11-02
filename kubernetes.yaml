@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: oraclequoteproject-service
+  labels:
+    app: oraclequoteproject
+spec:
+  selector:
+    app: oraclequoteproject
+  type: NodePort
+  ports:
+    - port: 3003
+      nodePort: 32641
+
+#  clusterIP: None
+#  ports:
+#    - port: 8088
+#      name: rest
+#    - port: 32259
+#      name: inter-node
+#      targetPort: 32259
+
+#  ports:
+#  - port: 30146
+#    protocol: TCP
+#    targetPort: 8088
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: oraclequoteproject-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: oraclequoteproject
+  template:
+    metadata:
+      labels:
+        app: oraclequoteproject
+    spec:
+      containers:
+        - name: oraclequoteproject
+          image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/oraclequoteproject:latest
+          ports:
+            - containerPort: 3003
+      imagePullSecrets:
+        # enter the name of the secret you created
+        - name: ocirsecret
