@@ -41,6 +41,28 @@ const OracleIntentHandler = {
     }
 };
 
+const CepIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'cep';
+    },
+    async handle(handlerInput) {
+        var valor = handlerInput.requestEnvelope.request.intent.slots.numerocep.value;
+        var url = 'https://OIC-DIGIDEV-ladsedigdev.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/flows/rest/CRISTIANO_HOSHIKAWA_CEP/1.0/cep?cep=' + valor;
+        var speakOutput = '';
+        await axios.get(url, { headers: { Authorization: 'Basic ' + new Buffer("oicdemouser" + ':' + "Oracle123456").toString('base64') } }).then(function(resposta) {
+            speakOutput = resposta.data.frase;
+
+        });
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .getResponse();
+    }
+};
+
+
 const HelpIntentHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
@@ -152,6 +174,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
         OracleIntentHandler,
+        CepIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         FallbackIntentHandler,

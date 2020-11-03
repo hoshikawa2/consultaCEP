@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="ajuste para o deployment e servicos corretos">
-      <change afterPath="$PROJECT_DIR$/CRISTIANO_HOSHIKAWA_CEP_01.00.0000.iar" afterDir="false" />
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Servico no OIC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alexa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/alexa/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
       <workItem from="1604255439327" duration="69000" />
       <workItem from="1604320251138" duration="1164000" />
       <workItem from="1604334680112" duration="153000" />
-      <workItem from="1604334884421" duration="200000" />
+      <workItem from="1604334884421" duration="228000" />
+      <workItem from="1604418289529" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604334806671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Servico no OIC">
+      <created>1604347147307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604347147307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +112,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="teste" />
     <MESSAGE value="ajuste para o deployment e servicos corretos" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste para o deployment e servicos corretos" />
+    <MESSAGE value="Servico no OIC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servico no OIC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604320384516">
@@ -175,10 +184,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1379" height="335" key="GridCell.Tab.3.right/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155377" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604334822474">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604347154896">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604334822474" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604347154896" />
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604334816353">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
