@@ -4,7 +4,7 @@ metadata:
   name: consultacep-gateway
 spec:
   selector:
-    istio: ingressgateway # use Istio default gateway implementation
+    istio: ingressgateway # use the Istio default gateway implementation
   servers:
     - port:
         number: 3003
