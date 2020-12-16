@@ -21,15 +21,31 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Servico no Alexa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/package.json" />
+          <id value="dev" />
+        </path>
+      </selected-paths>
+    </layout>
   </component>
   <component name="ProjectId" id="1jhTWlbSHdUmRp6SyyILZGP0AEC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,15 +60,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.Run">
     <configuration name="Run" type="NodeJSConfigurationType" path-to-js-file="bin/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/routes/index.js">
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +101,9 @@
       <workItem from="1604334884421" duration="228000" />
       <workItem from="1604418289529" duration="60000" />
       <workItem from="1604879800750" duration="58000" />
-      <workItem from="1607695045718" duration="51000" />
+      <workItem from="1607695045718" duration="704000" />
+      <workItem from="1608077153195" duration="668000" />
+      <workItem from="1608124040861" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -99,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604418330630</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Servico no Alexa">
+      <created>1607695128201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607695128201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,22 +171,22 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1604320384516" />
-    <state width="1379" height="335" key="GridCell.Tab.0.bottom" timestamp="1604322155375">
+    <state width="1771" height="302" key="GridCell.Tab.0.bottom" timestamp="1608125969385">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="335" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155375" />
-    <state width="1379" height="335" key="GridCell.Tab.0.center" timestamp="1604322155374">
+    <state width="1771" height="302" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1608125969385" />
+    <state width="1771" height="302" key="GridCell.Tab.0.center" timestamp="1608125969384">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="335" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155374" />
-    <state width="1379" height="335" key="GridCell.Tab.0.left" timestamp="1604322155374">
+    <state width="1771" height="302" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1608125969384" />
+    <state width="1771" height="302" key="GridCell.Tab.0.left" timestamp="1608125969384">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="335" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155374" />
-    <state width="1379" height="335" key="GridCell.Tab.0.right" timestamp="1604322155374">
+    <state width="1771" height="302" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1608125969384" />
+    <state width="1771" height="302" key="GridCell.Tab.0.right" timestamp="1608125969385">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="335" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155374" />
+    <state width="1771" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1608125969385" />
     <state width="1379" height="335" key="GridCell.Tab.1.bottom" timestamp="1604322155375">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -194,13 +235,17 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1379" height="335" key="GridCell.Tab.3.right/0.23.1792.1097@0.23.1792.1097" timestamp="1604322155377" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604418338336">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607695136665">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604418338336" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1607695136665" />
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604334816353">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604334816353" />
+    <state x="771" y="435" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608124371786">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="771" y="435" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.23.1792.1097@0.23.1792.1097" timestamp="1608124371786" />
   </component>
 </project>
