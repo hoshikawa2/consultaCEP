@@ -6,8 +6,8 @@ var redis = require('redis');
 
 /* GET CEP */
 router.get('/cep', function (req, res, next) {
-    var client = redis.createClient("6379", "129.159.xxx.xxx");
-    client.auth("xxxxxxxx");
+    var client = redis.createClient("6379", "129.159.69.133");
+    client.auth("P@ssw0rd");
     client.on('connect', function() {
         console.log('REDIS conectado');
     });
