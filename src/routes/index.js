@@ -16,7 +16,7 @@ router.get('/cep', function (req, res, next) {
         if (reply != null) {
             console.log('Resposta via REDIS');
             console.log(reply);
-            res.send(reply);
+            res.send(JSON.parse(reply));
             res.end();
         } else {
             const url = "https://viacep.com.br/ws/" + req.query.cep + "/json/";
