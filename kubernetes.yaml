@@ -16,9 +16,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   #Canarian OK POD
-  #name: consultacep-deployment
+  name: consultacep-deployment
   #Canarian NOK POD
-  name: consultacep-deployment-nok
+  #name: consultacep-deployment-nok
 spec:
   replicas: 1
   selector:
