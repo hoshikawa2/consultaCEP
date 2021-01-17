@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Implementação REDIS">
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Implementação REDIS. Erro, estava enviando string ao inves de objeto JSON">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +97,8 @@
       <workItem from="1609557110532" duration="14000" />
       <workItem from="1609624485552" duration="132000" />
       <workItem from="1610070221939" duration="21000" />
-      <workItem from="1610477233092" duration="78000" />
+      <workItem from="1610477233092" duration="583000" />
+      <workItem from="1610849122457" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -161,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608214698522</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementação REDIS. Erro, estava enviando string ao inves de objeto JSON">
+      <created>1610477406968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610477406968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,11 +165,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -186,32 +211,37 @@
     <MESSAGE value="Servico no OIC" />
     <MESSAGE value="Servico no Alexa" />
     <MESSAGE value="Implementação REDIS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação REDIS" />
+    <MESSAGE value="Implementação REDIS. Erro, estava enviando string ao inves de objeto JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação REDIS. Erro, estava enviando string ao inves de objeto JSON" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604320384516">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1604320384516" />
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1609624616839">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="1771" height="278" key="GridCell.Tab.0.bottom" timestamp="1610477864826">
+      <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state width="1771" height="302" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
+    <state width="1771" height="278" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864826" />
     <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1609624616839">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="1771" height="278" key="GridCell.Tab.0.center" timestamp="1610477864825">
+      <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state width="1771" height="302" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
+    <state width="1771" height="278" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864825" />
     <state width="1771" height="299" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1609624616839">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="1771" height="278" key="GridCell.Tab.0.left" timestamp="1610477864825">
+      <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state width="1771" height="302" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059469" />
+    <state width="1771" height="278" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864825" />
     <state width="1771" height="299" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1609624616839">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="1771" height="278" key="GridCell.Tab.0.right" timestamp="1610477864826">
+      <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state width="1771" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
+    <state width="1771" height="278" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864826" />
     <state width="1771" height="299" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
     <state width="1379" height="335" key="GridCell.Tab.1.bottom" timestamp="1604322155375">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -265,10 +295,11 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608950586455" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1608214705930">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1610477414889">
+      <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1608214705930" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1610477414889" />
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604334816353">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
