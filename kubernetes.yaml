@@ -24,6 +24,7 @@ spec:
   selector:
     matchLabels:
       app: consultacep
+      version: nok
   template:
     metadata:
       labels:
