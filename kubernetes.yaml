@@ -24,11 +24,11 @@ spec:
   selector:
     matchLabels:
       app: consultacep
-      version: nok
   template:
     metadata:
       labels:
         app: consultacep
+        version: nok
     spec:
       containers:
         - name: consultacep
