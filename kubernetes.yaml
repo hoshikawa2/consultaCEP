@@ -28,7 +28,8 @@ spec:
     metadata:
       labels:
         app: consultacep
-        version: nok
+        version: ok
+        #version: nok
     spec:
       containers:
         - name: consultacep
