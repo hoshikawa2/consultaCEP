@@ -100,7 +100,7 @@
       <workItem from="1610477233092" duration="583000" />
       <workItem from="1610849122457" duration="1486000" />
       <workItem from="1610908905112" duration="280000" />
-      <workItem from="1610999091860" duration="1430000" />
+      <workItem from="1610999091860" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611000451293</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implementação de Canarian 50/50 com erro em um dos PODs">
+      <created>1611000902961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611000902961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,12 +340,12 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608950586455" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1611000458802">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1611000908724">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1608214705930" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1030@0.25.1792.1030" timestamp="1610851664060" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611000458802" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611000908724" />
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604334816353">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
