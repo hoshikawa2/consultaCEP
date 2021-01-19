@@ -17,9 +17,9 @@ router.get('/cep', function (req, res, next) {
             console.log('Resposta via REDIS');
             console.log(reply);
             //Canarian OK POD
-            res.send(JSON.parse(reply));
+            //res.send(JSON.parse(reply));
             //Canarian NOK POD
-            //res.send(reply);
+            res.send(reply);
             res.end();
         } else {
             const url = "https://viacep.com.br/ws/" + req.query.cep + "/json/";

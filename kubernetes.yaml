@@ -16,9 +16,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   #Canarian OK POD
-  name: consultacep-deployment
+  #name: consultacep-deployment
   #Canarian NOK POD
-  #name: consultacep-deployment-nok
+  name: consultacep-deployment-nok
 spec:
   replicas: 1
   selector:
@@ -28,8 +28,8 @@ spec:
     metadata:
       labels:
         app: consultacep
-        version: ok
-        #version: nok
+        #version: ok
+        version: nok
     spec:
       containers:
         - name: consultacep
@@ -39,3 +39,18 @@ spec:
       imagePullSecrets:
         # enter the name of the secret you created
         - name: ocirsecret
+---
+kind: DestinationRule       # Defining which pods should be part of each subset
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: grouping-rules-for-consultacep
+  namespace: default
+spec:
+  host: consultacep-service # Service
+  subsets:
+    - labels:   # SELECTOR.
+        version: ok # find pods with label "safe"
+      name: ok-group
+    - labels:
+        version: nok
+      name: nok-group
