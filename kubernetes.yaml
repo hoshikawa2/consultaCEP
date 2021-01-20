@@ -47,6 +47,12 @@ metadata:
   namespace: default
 spec:
   host: consultacep-service # Service
+  trafficPolicy:
+    outlierDetection:
+      consecutiveErrors: 3
+      interval: 20s
+      baseEjectionTime: 30s
+      maxEjectionPercent: 10
   subsets:
     - labels:   # SELECTOR.
         version: ok # find pods with label "safe"
