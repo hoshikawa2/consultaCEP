@@ -8,6 +8,7 @@
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian NOK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,8 @@
       <workItem from="1610908905112" duration="280000" />
       <workItem from="1610999091860" duration="2640000" />
       <workItem from="1611060421089" duration="987000" />
-      <workItem from="1611180421839" duration="76000" />
+      <workItem from="1611180421839" duration="677000" />
+      <workItem from="1611321359245" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611088742282</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Circuit-breaker by Istio">
+      <created>1611180520675</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611180520675</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +283,8 @@
     <MESSAGE value="Implementação de Canarian 50/50 com erro em um dos PODs" />
     <MESSAGE value="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian OK" />
     <MESSAGE value="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian NOK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian NOK" />
+    <MESSAGE value="Circuit-breaker by Istio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circuit-breaker by Istio" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604320384516">
@@ -357,12 +367,12 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608950586455" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1611088747680">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1611180530888">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1608214705930" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1030@0.25.1792.1030" timestamp="1610851664060" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611088747680" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611180530888" />
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604334816353">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

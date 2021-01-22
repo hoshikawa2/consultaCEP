@@ -16,9 +16,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   #Canarian OK POD
-  #name: consultacep-deployment
+  name: consultacep-deployment
   #Canarian NOK POD
-  name: consultacep-deployment-nok
+  #name: consultacep-deployment-nok
 spec:
   replicas: 1
   selector:
@@ -28,12 +28,15 @@ spec:
     metadata:
       labels:
         app: consultacep
-        #version: ok
-        version: nok
+        version: ok
+        #version: nok
     spec:
       containers:
         - name: consultacep
+          #Canarina Deployment OK
           image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/consultacep:latest
+          #Canarina Deployment NOK
+          #image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/consultacepnok:latest
           ports:
             - containerPort: 3003
       imagePullSecrets:
