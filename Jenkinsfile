@@ -1,4 +1,5 @@
 pipeline {
+    agent any
     /*
     environment {
         registry = "iad.ocir.io/idavixsf5sbx/cristianohoshikawa"
