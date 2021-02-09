@@ -31,7 +31,7 @@ pipeline {
                         userRemoteConfigs: [[
                             url: 'https://github.com/hoshikawa2/consultaCEP.git'
                           ]],
-                        branches: [ [name: '*/master'] ]
+                        branches: [ [name: '*/main'] ]
                       ])
                     /* app = docker.build(registry + "/runhtml:latest") */
                     sh 'docker build -t iad.ocir.io/' + params.DOCKER_REPO + '/runhtml:latest .'
@@ -47,7 +47,7 @@ pipeline {
                         userRemoteConfigs: [[
                             url: 'https://github.com/hoshikawa2/consultaCEP.git'
                           ]],
-                        branches: [ [name: '*/master'] ]
+                        branches: [ [name: '*/main'] ]
                       ])
     /*
                             docker.withRegistry('https://iad.ocir.io', 'docker-credential') {
