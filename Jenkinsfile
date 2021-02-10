@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+      'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
+    }   
     /*
     environment {
         registry = "iad.ocir.io/idavixsf5sbx/cristianohoshikawa"
