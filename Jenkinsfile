@@ -1,6 +1,7 @@
 pipeline {
     agent any
     tools {
+      maven 'Maven'
       'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
     }   
     
