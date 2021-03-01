@@ -6,13 +6,13 @@ pipeline {
     
     
     stages {
-        /*
+        /* */
         stage('SonarQube') {
             steps {
                 // Sonarqube
-                sh "mvn sonar:sonar  -Dsonar.projectKey=runHTML -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login=8e17c50243b436dbf0ecea60d8e54412d1c7d793"
+                sh "mvn sonar:sonar  -Dsonar.projectKey=consultaCEP -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
             }
-        }*/
+        }/* */
 /*
         stage('Build') { 
             steps {
