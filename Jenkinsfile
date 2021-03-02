@@ -11,7 +11,7 @@ pipeline {
         stage('SonarQube') {
             steps {
                 // Sonarqube
-                sh "mvn sonar:sonar  -Dsonar.projectKey=consultaCEP:main -Dsonar.host.url=http://129.159.69.133:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
+                sh "mvn sonar:sonar  -Dsonar.projectKey=consultaCEP:main -Dsonar.host.url=http://localhost:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
             }
         } /* */
 /*
