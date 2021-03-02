@@ -7,14 +7,27 @@ pipeline {
     
     
     stages {
-        /* */
+        /*
         stage('SonarQube') {
             steps {
                 // Sonarqube
                 sh "mvn sonar:sonar -X  -Dsonar.projectKey=consultaCEP -Dsonar.host.url=http://localhost:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
             }
-        } /* */
-/*
+        } */
+        stage('Sonarqube') {
+            environment {
+                scannerHome = tool 'SonarQubeScanner'
+            }
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                    sh "${scannerHome}/bin/sonar-scanner"
+                }
+                timeout(time: 10, unit: 'MINUTES') {
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+        /*
         stage('Build') { 
             steps {
                 sh "mvn -f pom.xml package" 
