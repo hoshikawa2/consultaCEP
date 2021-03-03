@@ -10,7 +10,7 @@ spec:
   type: NodePort
   ports:
     - port: 3003
-      nodePort: 32641
+      nodePort: 32645
 ---
 apiVersion: apps/v1
 kind: Deployment
