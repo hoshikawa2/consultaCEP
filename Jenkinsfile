@@ -7,13 +7,13 @@ pipeline {
     
     
     stages {
-        /*
+        
         stage('SonarQube') {
             steps {
                 // Sonarqube
                 sh "mvn sonar:sonar -X  -Dsonar.projectKey=consultaCEP -Dsonar.host.url=http://localhost:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
             }
-        } */
+        } 
         /*
         stage('Sonarqube') {
             environment {
@@ -30,26 +30,6 @@ pipeline {
             }
         }
         */
-        stage('SonarQube analysis 1') {
-            steps {
-                sh 'mvn clean package sonar:sonar'
-            }
-        }
-        stage("Quality Gate 1") {
-            steps {
-                waitForQualityGate abortPipeline: true
-            }
-        }
-        stage('SonarQube analysis 2') {
-            steps {
-                sh 'gradle sonarqube'
-            }
-        }
-        stage("Quality Gate 2") {
-            steps {
-                waitForQualityGate abortPipeline: true
-            }
-        }
         /*
         stage('Build') { 
             steps {
