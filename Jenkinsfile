@@ -14,6 +14,7 @@ pipeline {
                 sh "mvn sonar:sonar -X  -Dsonar.projectKey=consultaCEP -Dsonar.host.url=http://localhost:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
             }
         } */
+/*
         stage('Sonarqube') {
             environment {
                 scannerHome = tool 'SonarQubeScanner'
@@ -27,7 +28,29 @@ pipeline {
                 }
             }
         }
-
+*/
+       stage('Code Quality Check via SonarQube') {
+       steps {
+           script {
+           def scannerHome = tool 'sonarqube';
+               withSonarQubeEnv("sonarqube-container") {
+               sh "${tool("sonarqube")}/bin/sonar-scanner \
+               -Dsonar.projectKey=test-node-js \
+               -Dsonar.sources=. \
+               -Dsonar.css.node=. \
+               -Dsonar.host.url=http://localhost:9000 \
+               -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
+                   }
+               }
+           }
+       }
+       stage("Install Project Dependencies") {
+       steps {
+           nodejs(nodeJSInstallationName: 'nodenv'){
+               sh "npm install"
+               }
+           }
+       }        
         /*
         stage('Build') { 
             steps {
