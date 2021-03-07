@@ -19,8 +19,9 @@ pipeline {
                 scannerHome = tool 'SonarQubeScanner'
             }
             steps {
+                waitForQualityGate webhookSecretId: 'b2209b7fa758d4269f3f1ea8d0c80eb059120828'
+
                 withSonarQubeEnv('SonarQubeScanner') {
-                    waitForQualityGate webhookSecretId: 'b2209b7fa758d4269f3f1ea8d0c80eb059120828'
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
                 timeout(time: 10, unit: 'MINUTES') {
