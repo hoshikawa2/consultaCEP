@@ -3,6 +3,7 @@ pipeline {
     tools {
       maven 'Maven'
       'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
+      nodejs "nodenv"
     }   
     
     
