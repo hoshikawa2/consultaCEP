@@ -3,7 +3,7 @@ pipeline {
     tools {
       maven 'Maven'
       'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
-      nodejs "nodenv"
+      //nodejs "nodenv"
     }   
     
     
@@ -15,7 +15,7 @@ pipeline {
                 sh "mvn sonar:sonar -X  -Dsonar.projectKey=consultaCEP -Dsonar.host.url=http://localhost:9000 -Dsonar.login=b2209b7fa758d4269f3f1ea8d0c80eb059120828"
             }
         } */
-/*
+
         stage('Sonarqube') {
             environment {
                 scannerHome = tool 'SonarQubeScanner'
@@ -24,12 +24,13 @@ pipeline {
                 withSonarQubeEnv('SonarQubeScanner') {
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
+                /*
                 timeout(time: 10, unit: 'MINUTES') {
                     waitForQualityGate abortPipeline: true
-                }
+                }*/
             }
         }
-*/
+/*
        stage('Code Quality Check via SonarQube') {
        steps {
            script {
@@ -51,7 +52,8 @@ pipeline {
                sh "npm install"
                }
            }
-       }        
+       } 
+       */
         /*
         stage('Build') { 
             steps {
