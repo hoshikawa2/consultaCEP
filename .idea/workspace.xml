@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Atualizacao para testes com SonarQube">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -107,6 +108,7 @@
       <workItem from="1614017995599" duration="511000" />
       <workItem from="1614727823709" duration="535000" />
       <workItem from="1614771451617" duration="74000" />
+      <workItem from="1616668197887" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
