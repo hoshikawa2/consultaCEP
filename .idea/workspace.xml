@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Atualizacao para testes com SonarQube">
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Apresentacao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
@@ -108,7 +108,7 @@
       <workItem from="1614017995599" duration="511000" />
       <workItem from="1614727823709" duration="535000" />
       <workItem from="1614771451617" duration="74000" />
-      <workItem from="1616668197887" duration="1117000" />
+      <workItem from="1616668197887" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614728078812</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Apresentacao">
+      <created>1616671890991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616671890991</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,47 +311,7 @@
     <MESSAGE value="Circuit-breaker by Istio" />
     <MESSAGE value="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian OK" />
     <MESSAGE value="Atualizacao para testes com SonarQube" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizacao para testes com SonarQube" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1771" height="278" key="GridCell.Tab.0.bottom" timestamp="1610477864826">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
-    <state width="1771" height="278" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864826" />
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="278" key="GridCell.Tab.0.center" timestamp="1610477864825">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
-    <state width="1771" height="278" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864825" />
-    <state width="1771" height="299" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="278" key="GridCell.Tab.0.left" timestamp="1610477864825">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059469" />
-    <state width="1771" height="278" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864825" />
-    <state width="1771" height="299" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="278" key="GridCell.Tab.0.right" timestamp="1610477864826">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
-    <state width="1771" height="278" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864826" />
-    <state width="1771" height="299" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state x="397" y="210" key="SettingsEditor" timestamp="1608950586455">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608950586455" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1614728095131">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1608214705930" />
-    <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1030@0.25.1792.1030" timestamp="1610851664060" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611321572675" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1035@0.25.1792.1035" timestamp="1614728095131" />
-    <state x="771" y="435" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608124371786">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="771" y="435" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.23.1792.1097@0.23.1792.1097" timestamp="1608124371786" />
+    <MESSAGE value="Apresentacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apresentacao" />
   </component>
 </project>
