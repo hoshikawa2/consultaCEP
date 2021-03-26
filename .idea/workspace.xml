@@ -5,12 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Atualizacao para testes com SonarQube">
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Apresentacao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redis-commands/tools/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-commands/tools/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redis-errors/lib/modern.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-errors/lib/modern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redis-errors/lib/old.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-errors/lib/old.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redis-parser/lib/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-parser/lib/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -109,14 +107,8 @@
       <workItem from="1612140960533" duration="7000" />
       <workItem from="1614017995599" duration="511000" />
       <workItem from="1614727823709" duration="535000" />
-      <workItem from="1614771451617" duration="1030000" />
-      <workItem from="1615683406074" duration="501000" />
-      <workItem from="1615686226244" duration="352000" />
-      <workItem from="1615686611269" duration="36000" />
-      <workItem from="1615913841391" duration="568000" />
-      <workItem from="1615971958279" duration="476000" />
-      <workItem from="1616335826024" duration="42000" />
-      <workItem from="1616767608534" duration="48000" />
+      <workItem from="1614771451617" duration="74000" />
+      <workItem from="1616668197887" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -251,12 +243,12 @@
       <option name="project" value="LOCAL" />
       <updated>1614728078812</updated>
     </task>
-    <task id="LOCAL-00020" summary="Atualizacao para testes com SonarQube">
-      <created>1614771545492</created>
+    <task id="LOCAL-00020" summary="Apresentacao">
+      <created>1616671890991</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1614771545492</updated>
+      <updated>1616671890991</updated>
     </task>
     <option name="localTasksCounter" value="21" />
     <servers />
@@ -319,48 +311,7 @@
     <MESSAGE value="Circuit-breaker by Istio" />
     <MESSAGE value="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian OK" />
     <MESSAGE value="Atualizacao para testes com SonarQube" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizacao para testes com SonarQube" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616767637229">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1616767637229" />
-    <state width="1771" height="278" key="GridCell.Tab.0.bottom" timestamp="1610477864826">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
-    <state width="1771" height="278" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864826" />
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="278" key="GridCell.Tab.0.center" timestamp="1610477864825">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
-    <state width="1771" height="278" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864825" />
-    <state width="1771" height="299" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="278" key="GridCell.Tab.0.left" timestamp="1610477864825">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059469" />
-    <state width="1771" height="278" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864825" />
-    <state width="1771" height="299" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state width="1771" height="278" key="GridCell.Tab.0.right" timestamp="1610477864826">
-      <screen x="0" y="25" width="1792" height="1034" />
-    </state>
-    <state width="1771" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1608129059470" />
-    <state width="1771" height="278" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1610477864826" />
-    <state width="1771" height="299" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1609624616839" />
-    <state x="397" y="210" key="SettingsEditor" timestamp="1608950586455">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608950586455" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1614771555849">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1608214705930" />
-    <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1030@0.25.1792.1030" timestamp="1610851664060" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611321572675" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1035@0.25.1792.1035" timestamp="1614728095131" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/1792.25.1366.999/0.25.1792.1035@0.25.1792.1035" timestamp="1614771555849" />
+    <MESSAGE value="Apresentacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apresentacao" />
   </component>
 </project>
