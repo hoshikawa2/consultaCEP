@@ -7,7 +7,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Atualizacao para testes com SonarQube">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redis-commands/tools/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-commands/tools/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redis-errors/lib/modern.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-errors/lib/modern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redis-errors/lib/old.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-errors/lib/old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redis-parser/lib/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/redis-parser/lib/parser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,14 @@
       <workItem from="1612140960533" duration="7000" />
       <workItem from="1614017995599" duration="511000" />
       <workItem from="1614727823709" duration="535000" />
-      <workItem from="1614771451617" duration="74000" />
+      <workItem from="1614771451617" duration="1030000" />
+      <workItem from="1615683406074" duration="501000" />
+      <workItem from="1615686226244" duration="352000" />
+      <workItem from="1615686611269" duration="36000" />
+      <workItem from="1615913841391" duration="568000" />
+      <workItem from="1615971958279" duration="476000" />
+      <workItem from="1616335826024" duration="42000" />
+      <workItem from="1616767608534" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -241,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614728078812</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Atualizacao para testes com SonarQube">
+      <created>1614771545492</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614771545492</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +322,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Atualizacao para testes com SonarQube" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616767637229">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1616767637229" />
     <state width="1771" height="278" key="GridCell.Tab.0.bottom" timestamp="1610477864826">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
@@ -333,16 +354,13 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608950586455" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1614728095131">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1614771555849">
       <screen x="0" y="25" width="1792" height="1035" />
     </state>
     <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1608214705930" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1030@0.25.1792.1030" timestamp="1610851664060" />
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1034@0.25.1792.1034" timestamp="1611321572675" />
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1035@0.25.1792.1035" timestamp="1614728095131" />
-    <state x="771" y="435" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608124371786">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="771" y="435" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.23.1792.1097@0.23.1792.1097" timestamp="1608124371786" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/1792.25.1366.999/0.25.1792.1035@0.25.1792.1035" timestamp="1614771555849" />
   </component>
 </project>
