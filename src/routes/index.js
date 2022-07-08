@@ -4,7 +4,7 @@ const axios = require("axios");
 
 var redis = require('redis');
 
-/* GET CEP  */
+/* GET CEP */
 router.get('/cep', function (req, res, next) {
     var client = redis.createClient("6379", "129.158.228.3");
     client.auth("P@ssw0rd");
