@@ -6,13 +6,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Apresentacao">
+      <change afterPath="$PROJECT_DIR$/src/routes/recorder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="main" />
@@ -31,6 +44,10 @@
       </selected-paths>
     </layout>
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="context-cl7fe57zvwa" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="ProjectId" id="1jhTWlbSHdUmRp6SyyILZGP0AEC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,12 +61,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.Run">
+  <component name="RunManager" selected="npm.dev">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="NodeJSConfigurationType" path-to-js-file="bin/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -109,6 +138,8 @@
       <workItem from="1614727823709" duration="535000" />
       <workItem from="1614771451617" duration="74000" />
       <workItem from="1616668197887" duration="1516000" />
+      <workItem from="1659796506097" duration="1413000" />
+      <workItem from="1659808365884" duration="5898000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>

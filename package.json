@@ -13,7 +13,13 @@
   "devDependencies": {
     "axios": "^0.21.0",
     "circular-json": "^0.5.9",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "zipkin": "^0.22.0",
+    "zipkin-context-cls": "^0.22.0",
+    "zipkin-transport-http": "^0.22.0",
+    "zipkin-instrumentation-express": "^0.22.0",
+    "zipkin-instrumentation-axiosjs": "^0.22.0",
+    "zipkin-instrumentation-fetch": "^0.22.0"
   },
   "dependencies": {
     "debug": "^4.2.0",
