@@ -17,8 +17,6 @@ const tracer = new Tracer({ctxImpl, recorder: recorder(localServiceName), localS
 const zipkinMiddleware = require('zipkin-instrumentation-express').expressMiddleware;
 router.use(zipkinMiddleware({tracer}));
 
-const ctx = new ExplicitContext();
-
 //-----------
 
 /* GET CEP */
@@ -27,6 +25,11 @@ router.get('/cep', function (req, res, next) {
     client.auth("P@ssw0rd");
     client.on('connect', function() {
 
+        //zipkin
+        ctxImpl.scoped(() => {
+            tracer.recordServiceName('REDIS conectado');
+        });
+
         console.log('REDIS conectado');
     });
 
@@ -34,6 +37,11 @@ router.get('/cep', function (req, res, next) {
         if (reply != null) {
 
             console.log('Resposta via REDIS');
+
+            //zipkin
+            ctxImpl.scoped(() => {
+                tracer.recordServiceName('Resposta via REDIS');
+            });
 
             console.log(reply);
             //Canarian OK POD
@@ -50,6 +58,11 @@ router.get('/cep', function (req, res, next) {
                 res.end();
                 console.log('Consultou VIACEP');
                 console.log(resposta.data);
+
+                //zipkin
+                ctxImpl.scoped(() => {
+                    tracer.recordServiceName('Consultou VIACEP');
+                });
 
                 client.set(req.query.cep, JSON.stringify(resposta.data));
             })
