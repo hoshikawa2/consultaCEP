@@ -24,7 +24,7 @@
     "zipkin-context-cls": "^0.22.0",
     "zipkin-transport-http": "^0.22.0",
     "zipkin-instrumentation-express": "^0.22.0",
-    "zipkin-instrumentation-axiosjs": "^0.22.0",
+    "zipkin-instrumentation-axios": "latest",
     "zipkin-instrumentation-fetch": "^0.22.0"
   }
 }
