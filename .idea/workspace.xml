@@ -7,18 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Apresentacao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/test/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/test/integrationTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axiosjs/test/unitTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +130,8 @@
       <workItem from="1659808365884" duration="5949000" />
       <workItem from="1659882246193" duration="2374000" />
       <workItem from="1659917408208" duration="2732000" />
-      <workItem from="1659995194144" duration="12529000" />
+      <workItem from="1659995194144" duration="12608000" />
+      <workItem from="1660010841722" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>

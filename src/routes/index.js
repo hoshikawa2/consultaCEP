@@ -32,13 +32,6 @@ router.get('/cep', function (req, res, next) {
     client.get(req.query.cep, function(err, reply) {
         if (reply != null) {
             //zipkin
-            const originalId = tracer.createChildId();
-            tracer.letId(originalId, () => {
-                tracer.recordBinary('error', "Step 1");
-                tracer.recordAnnotation(new Annotation.ClientRecv());
-                tracer.recordAnnotation(new Annotation.ClientSend());
-            });
-
             tracer.local('Resposta via REDIS', () => {
                 console.log('Resposta via REDIS');
             });
