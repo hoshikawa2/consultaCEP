@@ -23,7 +23,7 @@ router.use(zipkinMiddleware({tracer}));
 
 /* GET CEP */
 router.get('/cep', function (req, res, next) {
-    var client = redis.createClient("6379", "141.148.39.105");
+    var client = redis.createClient("6379", "193.122.166.121");
     client.auth("P@ssw0rd");
     client.on('connect', function() {
         console.log('REDIS conectado');

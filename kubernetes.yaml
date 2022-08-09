@@ -44,7 +44,7 @@ spec:
         - name: ocirsecret
 ---
 kind: DestinationRule       # Defining which pods should be part of each subset
-apiVersion: networking.istio.io/v1alpha3
+apiVersion: networking.istio.io/v1beta1
 metadata:
   name: grouping-rules-for-consultacep
   namespace: default
