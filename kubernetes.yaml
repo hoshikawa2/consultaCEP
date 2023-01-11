@@ -28,7 +28,7 @@ spec:
     metadata:
       labels:
         app: consultacep
-        version: ok
+#        version: ok
         #version: nok
     spec:
       containers:
@@ -43,23 +43,23 @@ spec:
         # enter the name of the secret you created
         - name: ocirsecret
 ---
-kind: DestinationRule       # Defining which pods should be part of each subset
-apiVersion: networking.istio.io/v1beta1
-metadata:
-  name: grouping-rules-for-consultacep
-  namespace: default
-spec:
-  host: consultacep-service # Service
-  trafficPolicy:
-    outlierDetection:
-      consecutiveErrors: 3
-      interval: 20s
-      baseEjectionTime: 30s
-      maxEjectionPercent: 10
-  subsets:
-    - labels:   # SELECTOR.
-        version: ok # find pods with label "safe"
-      name: ok-group
-    - labels:
-        version: nok
-      name: nok-group
+#kind: DestinationRule       # Defining which pods should be part of each subset
+#apiVersion: networking.istio.io/v1beta1
+#metadata:
+#  name: grouping-rules-for-consultacep
+#  namespace: default
+#spec:
+#  host: consultacep-service # Service
+#  trafficPolicy:
+#    outlierDetection:
+#      consecutiveErrors: 3
+#      interval: 20s
+#      baseEjectionTime: 30s
+#      maxEjectionPercent: 10
+#  subsets:
+#    - labels:   # SELECTOR.
+#        version: ok # find pods with label "safe"
+#      name: ok-group
+#    - labels:
+#        version: nok
+#      name: nok-group

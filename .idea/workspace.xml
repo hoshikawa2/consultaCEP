@@ -5,74 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Apresentacao">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/async-hook-jl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async-hook-jl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/async-listener/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async-listener/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/base64-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/base64-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cls-hooked/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cls-hooked/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/continuation-local-storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/continuation-local-storage/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/emitter-listener/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/emitter-listener/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-promise/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nan/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/network-address/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/network-address/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-int64/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-int64/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/options/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/options/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/q/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/q/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/shimmer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shimmer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/stack-chain/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/stack-chain/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thrift/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thrift/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tinycolor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tinycolor/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tr46/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tr46/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tr46/lib/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tr46/lib/mappingTable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tr46/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/URL-impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/URL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/public-api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/url-state-machine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d.raw" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d.raw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/binding.Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/binding.Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/bufferutil.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/bufferutil.target.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/config.gypi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/gyp-mac-tool" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/gyp-mac-tool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/validation.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/validation.target.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/builderror.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/builderror.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-context-cls/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-context-cls/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/axios/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/follow-redirects/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/follow-redirects/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/zipkin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/zipkin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-fetch/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-transport-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-transport-http/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/zipkin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do IP do REDIS">
+      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +168,7 @@
       <workItem from="1669905175648" duration="1000" />
       <workItem from="1670072173958" duration="792000" />
       <workItem from="1670072982018" duration="133000" />
-      <workItem from="1673451233832" duration="180000" />
+      <workItem from="1673451233832" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -383,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659814469800</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Ajuste do IP do REDIS">
+      <created>1673451491384</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673451491384</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +386,8 @@
     <MESSAGE value="Implementação de Canarian 50/50 com erro em um dos PODs&#10;Canarian OK" />
     <MESSAGE value="Atualizacao para testes com SonarQube" />
     <MESSAGE value="Apresentacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apresentacao" />
+    <MESSAGE value="Ajuste do IP do REDIS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do IP do REDIS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
