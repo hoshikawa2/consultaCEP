@@ -5,10 +5,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do IP do REDIS">
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do IP do REDIS 2">
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tr46/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tr46/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tr46/lib/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tr46/lib/mappingTable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tr46/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/webidl-conversions/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/webidl-conversions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/webidl-conversions/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/webidl-conversions/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/lib/URL-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/lib/URL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/lib/public-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/lib/url-state-machine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/whatwg-url/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +195,7 @@
       <workItem from="1669905175648" duration="1000" />
       <workItem from="1670072173958" duration="792000" />
       <workItem from="1670072982018" duration="133000" />
-      <workItem from="1673451233832" duration="3022000" />
+      <workItem from="1673451233832" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -333,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673456026030</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Ajuste do IP do REDIS 2">
+      <created>1673458975254</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673458975254</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +428,8 @@
     <MESSAGE value="Atualizacao para testes com SonarQube" />
     <MESSAGE value="Apresentacao" />
     <MESSAGE value="Ajuste do IP do REDIS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do IP do REDIS" />
+    <MESSAGE value="Ajuste do IP do REDIS 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do IP do REDIS 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
