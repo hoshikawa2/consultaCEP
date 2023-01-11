@@ -8,7 +8,70 @@
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Apresentacao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-hook-jl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async-hook-jl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-listener/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async-listener/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/base64-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/base64-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cls-hooked/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cls-hooked/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/continuation-local-storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/continuation-local-storage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emitter-listener/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/emitter-listener/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/network-address/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/network-address/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-int64/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-int64/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/options/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/options/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/q/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/q/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shimmer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shimmer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/stack-chain/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/stack-chain/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thrift/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thrift/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tinycolor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tinycolor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tr46/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tr46/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tr46/lib/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tr46/lib/mappingTable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tr46/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webidl-conversions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/URL-impl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/URL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/public-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/url-state-machine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-url/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d.raw" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d.raw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/binding.Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/binding.Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/bufferutil.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/bufferutil.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/gyp-mac-tool" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/gyp-mac-tool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/build/validation.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/build/validation.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/builderror.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/builderror.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-context-cls/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-context-cls/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/axios/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/follow-redirects/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/follow-redirects/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/zipkin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/node_modules/zipkin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-axios/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-instrumentation-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin-transport-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin-transport-http/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/zipkin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/zipkin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +88,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,13 +123,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.dev">
-    <configuration name="Run" type="NodeJSConfigurationType" path-to-js-file="bin/server.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.Run">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/../../consultaCEP/bin/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/routes/index.js">
@@ -81,10 +153,15 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="/usr/local/bin/node" />
+      <package-manager value="/usr/local/Cellar" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.Run" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
@@ -134,7 +211,30 @@
       <workItem from="1659917408208" duration="2732000" />
       <workItem from="1659995194144" duration="12608000" />
       <workItem from="1660010841722" duration="138000" />
-      <workItem from="1660064183339" duration="366000" />
+      <workItem from="1660064183339" duration="454000" />
+      <workItem from="1660068697868" duration="533000" />
+      <workItem from="1660655617960" duration="506000" />
+      <workItem from="1660658314186" duration="852000" />
+      <workItem from="1661361458619" duration="232000" />
+      <workItem from="1661882032558" duration="395000" />
+      <workItem from="1663957404945" duration="4000" />
+      <workItem from="1664208352641" duration="15000" />
+      <workItem from="1664805355227" duration="22000" />
+      <workItem from="1664805938753" duration="4000" />
+      <workItem from="1664806097553" duration="7000" />
+      <workItem from="1664807169806" duration="8000" />
+      <workItem from="1664807336395" duration="110000" />
+      <workItem from="1664807987420" duration="18000" />
+      <workItem from="1664808113159" duration="24000" />
+      <workItem from="1664808305276" duration="133000" />
+      <workItem from="1667157295184" duration="27000" />
+      <workItem from="1667212399075" duration="1225000" />
+      <workItem from="1667504169271" duration="567000" />
+      <workItem from="1667563578407" duration="80000" />
+      <workItem from="1669905175648" duration="1000" />
+      <workItem from="1670072173958" duration="792000" />
+      <workItem from="1670072982018" duration="133000" />
+      <workItem from="1673451233832" duration="180000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -346,5 +446,9 @@
     <MESSAGE value="Atualizacao para testes com SonarQube" />
     <MESSAGE value="Apresentacao" />
     <option name="LAST_COMMIT_MESSAGE" value="Apresentacao" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
