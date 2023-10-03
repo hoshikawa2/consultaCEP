@@ -8,9 +8,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do IP do REDIS 2">
-      <change afterPath="$PROJECT_DIR$/fluentd.yaml" afterDir="false" />
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do fluent para OCI OpenSearch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fluentd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fluentd.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,8 @@
       <workItem from="1696029166867" duration="545000" />
       <workItem from="1696029772471" duration="1219000" />
       <workItem from="1696282682470" duration="12000" />
-      <workItem from="1696286759684" duration="737000" />
+      <workItem from="1696286759684" duration="782000" />
+      <workItem from="1696356750173" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -367,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673465186431</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Ajuste do fluent para OCI OpenSearch">
+      <created>1696291687955</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1696291687955</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +438,8 @@
     <MESSAGE value="Apresentacao" />
     <MESSAGE value="Ajuste do IP do REDIS" />
     <MESSAGE value="Ajuste do IP do REDIS 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do IP do REDIS 2" />
+    <MESSAGE value="Ajuste do fluent para OCI OpenSearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do fluent para OCI OpenSearch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
