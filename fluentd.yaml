@@ -163,10 +163,7 @@ data:
       pos_file /var/log/fluentd-containers.log.pos
       tag kubernetes.*
       read_from_head true
-      <parse>
-        @type regexp
-        expression (?<header>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{9}\+\d{2}:\d{2} stdout F )\s(?<code>\d:[A-Z])\s/(?<timestamp>\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}\s\+\d{4})\s(?<info>\[\w+\]:)\s(?<message>.+)/
-      </parse>
+      format /^(?<message>(?<time>[^ ]*\s*[^ ]* [^ ]*) .*)$/
     </source>
   
     <match **.*>

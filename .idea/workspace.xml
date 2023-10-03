@@ -177,7 +177,8 @@
       <workItem from="1696029772471" duration="1219000" />
       <workItem from="1696282682470" duration="12000" />
       <workItem from="1696286759684" duration="782000" />
-      <workItem from="1696356750173" duration="20000" />
+      <workItem from="1696356750173" duration="51000" />
+      <workItem from="1696369399175" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -375,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696291687955</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Ajuste do fluent para OCI OpenSearch">
+      <created>1696356779264</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1696356779264</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
