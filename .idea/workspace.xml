@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do IP do REDIS 2" />
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do IP do REDIS 2">
+      <change afterPath="$PROJECT_DIR$/fluentd.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -39,6 +48,12 @@
     <option name="context" value="context-cl7fe57zvwa" />
     <option name="namespace" value="default" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="1jhTWlbSHdUmRp6SyyILZGP0AEC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,32 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="TF_FMT" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager" selected="Node.js.Run">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/../../consultaCEP/bin/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -166,7 +167,16 @@
       <workItem from="1669905175648" duration="1000" />
       <workItem from="1670072173958" duration="792000" />
       <workItem from="1670072982018" duration="133000" />
-      <workItem from="1673451233832" duration="5076000" />
+      <workItem from="1673451233832" duration="5689000" />
+      <workItem from="1673488410247" duration="22000" />
+      <workItem from="1682434189318" duration="2324000" />
+      <workItem from="1684492579363" duration="154000" />
+      <workItem from="1685023709970" duration="231000" />
+      <workItem from="1691517386510" duration="640000" />
+      <workItem from="1696029166867" duration="545000" />
+      <workItem from="1696029772471" duration="1219000" />
+      <workItem from="1696282682470" duration="12000" />
+      <workItem from="1696286759684" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -350,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673464879725</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Ajuste do IP do REDIS 2">
+      <created>1673465186431</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673465186431</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +413,6 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
