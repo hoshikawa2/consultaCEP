@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do fluent para OCI OpenSearch">
+      <change afterPath="$PROJECT_DIR$/fluentd-mtls.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluentd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fluentd.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,8 @@
       <workItem from="1696282682470" duration="12000" />
       <workItem from="1696286759684" duration="782000" />
       <workItem from="1696356750173" duration="51000" />
-      <workItem from="1696369399175" duration="17000" />
+      <workItem from="1696369399175" duration="34000" />
+      <workItem from="1696384879097" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -383,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696356779264</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ajuste do fluent para OCI OpenSearch">
+      <created>1696369429496</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1696369429496</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
