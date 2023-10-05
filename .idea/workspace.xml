@@ -8,10 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do fluent para OCI OpenSearch">
-      <change afterPath="$PROJECT_DIR$/fluentd-mtls.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbfe67e9-0371-48e6-a24a-d9d0241b0688" name="Default Changelist" comment="Ajuste do fluent para OCI OpenSearch mtls" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +176,7 @@
       <workItem from="1696286759684" duration="782000" />
       <workItem from="1696356750173" duration="51000" />
       <workItem from="1696369399175" duration="34000" />
-      <workItem from="1696384879097" duration="66000" />
+      <workItem from="1696384879097" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1604322010783</created>
@@ -391,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696369429496</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Ajuste do fluent para OCI OpenSearch mtls">
+      <created>1696384970573</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1696384970573</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +459,8 @@
     <MESSAGE value="Ajuste do IP do REDIS" />
     <MESSAGE value="Ajuste do IP do REDIS 2" />
     <MESSAGE value="Ajuste do fluent para OCI OpenSearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do fluent para OCI OpenSearch" />
+    <MESSAGE value="Ajuste do fluent para OCI OpenSearch mtls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do fluent para OCI OpenSearch mtls" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
